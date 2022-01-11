@@ -6,20 +6,20 @@ CVSS is a massively multilingual-to-English speech-to-speech translation corpus,
 
 CVSS includes two versions of spoken translation for all the 21 x-en language pairs from CoVoST 2, with each version providing unique values:
 
- - *CVSS-C*: All the translation speeches are in a single canonical speaker's voice. Despite being synthetic, these speeches are of very high naturalness and cleanness, as well as having consistent speaking style. These properties ease the modelling of the target speech and produce high quality suitable for user-facing applications.
+ - *CVSS-C*: All the translation speeches are in a single canonical speaker's voice. Despite being synthetic, these speeches are of very high naturalness and cleanness, as well as having consistent speaking style. These properties ease the modelling of the target speech and enable models to produce high quality translation speech suitable for user-facing applications.
 
  - *CVSS-T*: The translation speeches are in voices transferred from the corresponding source speeches. Each translation pair has similar voices on the two sides despite of being in different languages, making this dataset suitable for building models that preserve speakers' voices when translate speech into different languages.
 
 In together with the source speeches originated from Common Voice, they make two multilingual speech-to-speech tranlsation datasets each with about 1,900 hours of speech.
 
-In addition to translation speech, CVSS also provides normalized translation text matching the pronunciation in the translation speech (e.g. on numbers, currencies, acronyms, etc.), which can be used for both model training as well as evaluation.
+In addition to translation speech, CVSS also provides normalized translation text matching the pronunciation in the translation speech (e.g. on numbers, currencies, acronyms, etc.), which can be use for both model training as well as standalizing evaluation.
 
 Please check out [our paper]() for the detailed description of this corpus, as well as the baseline models we trained on both datasets.
 
 
 ## Getting the data
 
-The translation speech and the normalized translation text in CVSS can be downloaded from the following links:
+The translation speech and the normalized translation text in CVSS can be downloaded from the links in the following table:
 
 | Source language | Code | CVSS-C | CVSS-T |
 | --------------- |------|:-------------:|:-------------:|
@@ -45,9 +45,9 @@ The translation speech and the normalized translation text in CVSS can be downlo
 | Turkish         |  tr  | [link](https://storage.googleapis.com/cvss/cvss_c_v1.0/cvss_c_tr_en_v1.0.tar.gz) | [link](https://storage.googleapis.com/cvss/cvss_t_v1.0/cvss_t_tr_en_v1.0.tar.gz) |
 | Chinese         |  zh  | [link](https://storage.googleapis.com/cvss/cvss_c_v1.0/cvss_c_zh_en_v1.0.tar.gz) | [link](https://storage.googleapis.com/cvss/cvss_t_v1.0/cvss_t_zh_en_v1.0.tar.gz) |
 
-Each `tar.gz` file above includes `train`, `dev`, `test` directories containing audio clips as the translation speech, as well as `train.tsv`, `dev.tsv`, `test.tsv` files containing the normalized translation text. The normalized translation text included in CVSS-C and CVSS-T is identical.
+Each `tar.gz` file in the links above includes `train`, `dev` and `test` directories containing audio clips as the translation speech, as well as `train.tsv`, `dev.tsv` and `test.tsv` files containing the normalized translation text. The normalized translation text files included in CVSS-C and CVSS-T are identical.
 
-These translation audio clips and translation texts are to be paired with the [Common Voice](https://commonvoice.mozilla.org/en/datasets) release version 4 (required) based on the audio file names. If you need the original translation text without the normalization, they can be downloaded from [CoVoST 2](https://github.com/facebookresearch/covost).
+These translation audio clips and translation texts are to be paired with the [Common Voice](https://commonvoice.mozilla.org/en/datasets) release version 4 (required) based on the audio file names. If you need the original translation text without the normalization, they are provided by [CoVoST 2](https://github.com/facebookresearch/covost).
 
 
 ## License
@@ -57,7 +57,7 @@ CVSS is released under the very permissive [Creative Commons Attribution 4.0 Int
 
 ## Citation
 
-For cite this paper when referencing the CVSS corpus:
+Please cite this paper when referencing the CVSS corpus:
 
 ```
 @misc{jia2022cvss,

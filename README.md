@@ -2,7 +2,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-CVSS is a massively multilingual-to-English speech-to-speech translation corpus, covering sentence-level parallel speech-to-speech translation pairs from 21 languages into English. CVSS is derived from the [Common Voice](https://commonvoice.mozilla.org/) speech corpus and the [CoVoST 2](https://github.com/facebookresearch/covost) speech-to-text translation corpus. The translation speech in CVSS is synthesized with two state-of-the-art TTS models trained on the [LibriTTS](http://www.openslr.org/60/) corpus.
+*CVSS* is a massively multilingual-to-English speech-to-speech translation corpus, covering sentence-level parallel speech-to-speech translation pairs from 21 languages into English. CVSS is derived from the [Common Voice](https://commonvoice.mozilla.org/) speech corpus and the [CoVoST 2](https://github.com/facebookresearch/covost) speech-to-text translation corpus. The translation speech in CVSS is synthesized with two state-of-the-art TTS models trained on the [LibriTTS](http://www.openslr.org/60/) corpus.
 
 CVSS includes two versions of spoken translation for all the 21 x-en language pairs from CoVoST 2, with each version providing unique values:
 

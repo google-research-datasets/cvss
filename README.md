@@ -14,7 +14,7 @@ In together with the source speeches originated from Common Voice, they make two
 
 In addition to translation speech, CVSS also provides normalized translation text matching the pronunciation in the translation speech (e.g. on numbers, currencies, acronyms, etc.), which can be use for both model training as well as standalizing evaluation.
 
-Please check out [our paper]() for the detailed description of this corpus, as well as the baseline models we trained on both datasets.
+Please check out [our paper](https://arxiv.org/abs/2201.03713) for the detailed description of this corpus, as well as the baseline models we trained on both datasets.
 
 
 ## Getting the data
@@ -63,6 +63,8 @@ Please cite this paper when referencing the CVSS corpus:
 @misc{jia2022cvss,
     title={{CVSS} Corpus and Massively Multilingual Speech-to-Speech Translation},
     author={Jia, Ye and Tadmor Ramanovich, Michelle and Wang, Quan and Zen, Heiga},
+    eprint={2201.03713},
+    archivePrefix={arXiv},
     year={2022}
 }
 ```

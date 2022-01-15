@@ -12,7 +12,7 @@ CVSS includes two versions of spoken translation for all the 21 x-en language pa
 
 In together with the source speeches originated from Common Voice, they make two multilingual speech-to-speech tranlsation datasets each with about 1,900 hours of speech.
 
-In addition to translation speech, CVSS also provides normalized translation text matching the pronunciation in the translation speech (e.g. on numbers, currencies, acronyms, etc.), which can be use for both model training as well as standalizing evaluation.
+In addition to translation speech, CVSS also provides normalized translation text matching the pronunciation in the translation speech (e.g. on numbers, currencies, acronyms, etc.), which can be used for both model training as well as standalizing evaluation.
 
 Please check out [our paper](https://arxiv.org/abs/2201.03713) for the detailed description of this corpus, as well as the baseline models we trained on both datasets.
 
@@ -22,7 +22,7 @@ Please check out [our paper](https://arxiv.org/abs/2201.03713) for the detailed 
 The translation speech and the normalized translation text in CVSS can be downloaded from the links in the following table:
 
 | Source language | Code | CVSS-C | CVSS-T |
-| --------------- |------|:-------------:|:-------------:|
+| --------------- |:----:|:------:|:------:|
 | Arabic          |  ar  | [link](https://storage.googleapis.com/cvss/cvss_c_v1.0/cvss_c_ar_en_v1.0.tar.gz) | [link](https://storage.googleapis.com/cvss/cvss_t_v1.0/cvss_t_ar_en_v1.0.tar.gz) |
 | Catalan         |  ca  | [link](https://storage.googleapis.com/cvss/cvss_c_v1.0/cvss_c_ca_en_v1.0.tar.gz) | [link](https://storage.googleapis.com/cvss/cvss_t_v1.0/cvss_t_ca_en_v1.0.tar.gz) |
 | Welsh           |  cy  | [link](https://storage.googleapis.com/cvss/cvss_c_v1.0/cvss_c_cy_en_v1.0.tar.gz) | [link](https://storage.googleapis.com/cvss/cvss_t_v1.0/cvss_t_cy_en_v1.0.tar.gz) |

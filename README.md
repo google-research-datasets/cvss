@@ -6,13 +6,13 @@
 
 CVSS includes two versions of spoken translation for all the 21 x-en language pairs from CoVoST 2, with each version providing unique values:
 
- - *CVSS-C*: All the translation speeches are in a single canonical speaker's voice. Despite being synthetic, these speeches are of very high naturalness and cleanness, as well as having consistent speaking style. These properties ease the modelling of the target speech and enable models to produce high quality translation speech suitable for user-facing applications.
+ - *CVSS-C*: All the translation speeches are in a single canonical speaker's voice. Despite being synthetic, these speeches are of very high naturalness and cleanness, as well as having a consistent speaking style. These properties ease the modeling of the target speech and enable models to produce high quality translation speech suitable for user-facing applications.
 
- - *CVSS-T*: The translation speeches are in voices transferred from the corresponding source speeches. Each translation pair has similar voices on the two sides despite of being in different languages, making this dataset suitable for building models that preserve speakers' voices when translate speech into different languages.
+ - *CVSS-T*: The translation speeches are in voices transferred from the corresponding source speeches. Each translation pair has similar voices on the two sides despite being in different languages, making this dataset suitable for building models that preserve speakers' voices when translating speech into different languages.
 
-In together with the source speeches originated from Common Voice, they make two multilingual speech-to-speech tranlsation datasets each with about 1,900 hours of speech.
+Together with the source speeches originated from Common Voice, they make two multilingual speech-to-speech translation datasets each with about 1,900 hours of speech.
 
-In addition to translation speech, CVSS also provides normalized translation text matching the pronunciation in the translation speech (e.g. on numbers, currencies, acronyms, etc.), which can be used for both model training as well as standalizing evaluation.
+In addition to translation speech, CVSS also provides normalized translation text matching the pronunciation in the translation speech (e.g. on numbers, currencies, acronyms, etc.), which can be used for both model training as well as standardizing evaluation.
 
 Please check out [our paper](https://arxiv.org/abs/2201.03713) for the detailed description of this corpus, as well as the baseline models we trained on both datasets.
 

@@ -60,11 +60,11 @@ CVSS is released under the very permissive [Creative Commons Attribution 4.0 Int
 Please cite this paper when referencing the CVSS corpus:
 
 ```
-@misc{jia2022cvss,
+@inproceedings{jia2022cvss,
     title={{CVSS} Corpus and Massively Multilingual Speech-to-Speech Translation},
     author={Jia, Ye and Tadmor Ramanovich, Michelle and Wang, Quan and Zen, Heiga},
-    eprint={2201.03713},
-    archivePrefix={arXiv},
+    booktitle={Proceedings of Language Resources and Evaluation Conference (LREC)},
+    pages={6691--6703},
     year={2022}
 }
 ```

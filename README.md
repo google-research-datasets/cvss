@@ -50,6 +50,10 @@ Each `tar.gz` file in the links above includes `train`, `dev` and `test` directo
 These translation audio clips and translation texts are to be paired with the [Common Voice](https://commonvoice.mozilla.org/en/datasets) release version 4 (required) based on the audio file names. If you need the original translation text without the normalization, they are provided by [CoVoST 2](https://github.com/facebookresearch/covost).
 
 
+### Hugging Face
+
+CVSS is also available on [Hugging Face](https://huggingface.co/datasets/google/cvss).
+
 ## License
 
 CVSS is released under the very permissive [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
